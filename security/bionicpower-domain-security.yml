@@ -1,0 +1,15 @@
+generated: '2026-09-28'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.bionicpower.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Nov  9 22:02:24 2026 GMT
+  hsts: false
+domains:
+- domain: bionicpower.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
